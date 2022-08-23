@@ -8,4 +8,5 @@ class Prodconfig(Config):
     DEBUG = False
 
 class DevConfig(Config):
-    pass
+    ENV = 'dev'
+    DEBUG = True
